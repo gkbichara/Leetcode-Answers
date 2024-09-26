@@ -1,0 +1,8 @@
+Created a dictionary of all keys and what their corresponding values are
+Initialized a counter and a variable that stores the string's length
+Used a while loop as it's easier to manipulate i compared to for loop
+
+Check if i is at end of string
+Initial approach was to individually check for I, V and X and check for subsequent values that are bigger
+More optimized approach is to check if the next value is bigger than current, then subtract smaller from bigger and add
+Skip both until end of string
