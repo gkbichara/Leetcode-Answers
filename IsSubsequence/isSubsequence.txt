@@ -1,0 +1,8 @@
+Store strings in an array
+Create a pointer for each
+Create a while loop to traverse both arrays at the same time
+Initial approach was O(n^2), realized mistake and went back
+Check for element in array of string s and see if element is in other array (string t)
+If it is present, move along both pointers in the arrays
+If not, keep traversing until you find it or reach end of array
+If end of array is reached and passed, skip
