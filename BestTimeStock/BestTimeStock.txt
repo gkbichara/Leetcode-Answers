@@ -1,0 +1,8 @@
+Create temporary variables to store future sums and values in
+Use a while loop cause more intuitive to me (not necessarily best option)
+Check if current item is smaller than current minimum
+If it is then change it
+Else
+Calculate difference between current element and the minimum
+If it is bigger than the current max, change it
+Cannot just sort as order of days matters
