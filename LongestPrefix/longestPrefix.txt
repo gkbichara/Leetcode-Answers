@@ -1,0 +1,11 @@
+Check if first string is empty, if it is return empty string
+Set prefix to first letter
+Go through array
+If any string is empty, return empty string
+Check for length of prefix and length of current string, use minimum as inner for loop to avoid index issues
+Create a temp prefix to store prefix of current string with current prefix
+Check if they are equal, if they are append current char to string
+Do this until char in prefix and current string are different or the smaller one end
+If it is different just end prefix at j
+Temp is needed as sometimes they are the same until one ends, and then you wou;dn't end the string
+So the prefix you return is too long
