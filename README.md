@@ -12,8 +12,7 @@ Each folder in this repository corresponds to a specific LeetCode problem and co
 ## Thought Process Documentation
 
 For each problem, I provide a `.txt` file with a detailed explanation of how I approached the solution. These explanation files include:
-- **Problem Understanding**: A brief summary of the problem and key requirements.
-- **Approach**: The method or algorithm used to solve the problem.
+- **Approach**: The method or algorithm used to solve the problem and why.
 
 
 ## Technologies Used
