@@ -6,3 +6,4 @@ Check for element in array of string s and see if element is in other array (str
 If it is present, move along both pointers in the arrays
 If not, keep traversing until you find it or reach end of array
 If end of array is reached and passed, skip
+Initially checked for if  each element is in array, was inefficient so removed it

@@ -20,9 +20,6 @@ class Solution(object):
             if r == len(array2):
                 return False
 
-            if array1[l] not in array2:
-                return False
-
             if array1[l] == array2[r]:
                 l += 1
                 r += 1
