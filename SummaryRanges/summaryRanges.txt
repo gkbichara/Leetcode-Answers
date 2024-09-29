@@ -1,0 +1,13 @@
+My initial approach was somewhat correct, but had to ask for help on this one
+First thing to do so is check if list is empty
+Store first element as a temp variable
+Then go through list once and compare if last element is equal to current
+If it is not, check if temp variable is equal to the current last element
+If it is, it means it has no values following it must be added alone
+If it i-1 is not equal to temp, it means it has a sequence so add temp until i-1 in the list using the format
+Set current to temp
+
+
+Basically, the way to do it is advance in array and check i-1 constantly as it is easier than checking i with i+1
+Check if i-1 and i are equal, if not do the steps above
+No need to check for anything else if they are equal
