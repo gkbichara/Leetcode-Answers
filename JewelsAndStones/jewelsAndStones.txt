@@ -1,0 +1,5 @@
+Create a set of all values in the jewels string O(n)
+Initialize a counter at 0
+Loop through second string, check if each character is in the set O(1), if it is then increment counter
+Each check is O(1) since it is a set, but looping through string is O(n)
+Whole thing is O(n)
