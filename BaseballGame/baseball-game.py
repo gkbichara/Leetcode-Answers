@@ -17,9 +17,4 @@ class Solution(object):
             else:
                 answer.append(int(operations[i]))
             
-        total = 0
-        for i in answer:
-            total += i
-
-        return total
-    
+        return sum(answer)

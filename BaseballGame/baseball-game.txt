@@ -1,0 +1,7 @@
+Create an empty stack
+Loop through list and see if +, C or D
+If the element is none of the above 3, append casted version to stack
+If it's a C pop it
+If it's a D, double last elemnt in the stack, can't do operations[-1] as you could have a case that is [5, C, D]
+If it's a + same thing as above but last 2 elements
+Return sum of stack
